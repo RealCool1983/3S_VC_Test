@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VC2017_MFC_DIAG_SystemInfo", "VC2017_MFC_DIAG_SystemInfo\VC2017_MFC_DIAG_SystemInfo.vcxproj", "{ECAD6952-B74D-4700-A769-0EB1B30833E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECAD6952-B74D-4700-A769-0EB1B30833E3}.Debug|x64.ActiveCfg = Debug|x64
+		{ECAD6952-B74D-4700-A769-0EB1B30833E3}.Debug|x64.Build.0 = Debug|x64
+		{ECAD6952-B74D-4700-A769-0EB1B30833E3}.Debug|x86.ActiveCfg = Debug|Win32
+		{ECAD6952-B74D-4700-A769-0EB1B30833E3}.Debug|x86.Build.0 = Debug|Win32
+		{ECAD6952-B74D-4700-A769-0EB1B30833E3}.Release|x64.ActiveCfg = Release|x64
+		{ECAD6952-B74D-4700-A769-0EB1B30833E3}.Release|x64.Build.0 = Release|x64
+		{ECAD6952-B74D-4700-A769-0EB1B30833E3}.Release|x86.ActiveCfg = Release|Win32
+		{ECAD6952-B74D-4700-A769-0EB1B30833E3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {252CF92C-B972-49EE-8785-23D6E6A6CB37}
+	EndGlobalSection
+EndGlobal

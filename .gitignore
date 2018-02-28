@@ -1,0 +1,17 @@
+*.ncb
+*.opt
+*.plg
+*.clw
+*.APS
+*.opensdf
+
+*.sdf
+*.suo
+*.filters
+*.user
+Debug
+Release
+*.ipch
+
+*.db
+*.opendb

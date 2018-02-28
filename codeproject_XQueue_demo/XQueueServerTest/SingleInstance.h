@@ -1,0 +1,15 @@
+#ifndef  SINGLEINSTANCE_H 
+#define  SINGLEINSTANCE_H 
+
+const SI_SESSION_UNIQUE		= 0x0001;	// Allow only one instance per login session
+const SI_DESKTOP_UNIQUE		= 0x0002;	// Allow only one instance on current desktop
+const SI_TRUSTEE_UNIQUE		= 0x0004;	// Allow only one instance for current user
+const SI_SYSTEM_UNIQUE		= 0x0000;	// Allow only one instance at all (on the whole system)
+
+										// Note: SI_SESSION_UNIQUE and SI_TRUSTEE_UNIQUE can
+										// be combined with SI_DESKTOP_UNIQUE
+
+LPTSTR CreateUniqueName(LPCTSTR pszGUID, LPTSTR pszBuffer, int nMode = SI_SYSTEM_UNIQUE);
+BOOL IsInstancePresent(LPCTSTR pszGUID, int nMode = SI_SYSTEM_UNIQUE);
+
+#endif // SINGLEINSTANCE_H 

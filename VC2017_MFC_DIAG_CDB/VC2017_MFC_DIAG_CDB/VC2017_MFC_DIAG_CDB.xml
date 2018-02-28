@@ -1,0 +1,86 @@
+<Configuration>
+	<ToolInfo>TEST</ToolInfo>
+	<DriveLetter>G</DriveLetter>
+	<SSDDriveLetter>4</SSDDriveLetter>
+	<Command>
+	
+		<cmd29 RW = "R" Size = "512" Name="SSD_CMD_Identify_Device">A1 08 0E 00 01 00 00 00 00 EC 00 00</cmd29>	
+		<cmd30 RW = "R" Size = "512" Name="SSD_CMD_Identify_Device1">28 00 00 00 00 10 00 00 01 00</cmd30>	
+	
+	</Command>
+	<Config>
+
+	</Config>
+	
+	
+	
+	
+	<!--###################################################################################-->
+	<!--BackupXMLSetting-->
+	
+	<BackupXMLSetting>
+		<!--SSD-->
+		
+		
+		<!--Read 8K-->
+		<cmd0 RW = "R" Size = "7" Name="READ_8K">FF 25 01 00 00 00 00 00 01 00 00 00</cmd0>
+		
+
+		<!--Read 8K READ_8K_WI_CE0 -->
+		<cmd1 RW = "R" Size = "7" Name="READ_8K_WI_CE0WIN0_P0">FF 25 01 00 00 0C 00 00 01 00 00 00</cmd1>
+		<cmd2 RW = "R" Size = "7" Name="READ_8K_WI_CE0WIN0_P1">FF 25 01 00 00 0C 01 01 01 00 00 00</cmd2>
+		<cmd3 RW = "R" Size = "7" Name="READ_8K_WI_CE0WIN0_P2">FF 25 01 00 00 0C 02 02 01 00 00 00</cmd3>
+		<cmd4 RW = "R" Size = "7" Name="READ_8K_WI_CE0WIN0_P3">FF 25 01 00 00 0C 03 03 01 00 00 00</cmd4>
+		<cmd5 RW = "R" Size = "7" Name="READ_8K_WI_CE0WIN0_P4">FF 25 01 00 00 0C 04 04 01 00 00 00</cmd5>
+		<cmd6 RW = "R" Size = "7" Name="READ_8K_WI_CE0WIN0_P4">FF 25 01 00 00 0C 05 05 01 00 00 00</cmd6>
+		
+		<!--Read 8K READ_8K_WI_CE2 -->
+		<cmd7 RW = "R" Size = "7" Name="READ_8K_WI_CE2WIN0_P0">FF 25 01 02 00 04 00 00 01 00 00 00</cmd7>
+		<cmd8 RW = "R" Size = "7" Name="READ_8K_WI_CE2WIN0_P1">FF 25 01 02 00 04 01 01 01 00 00 00</cmd8>
+		<cmd9 RW = "R" Size = "7" Name="READ_8K_WI_CE2WIN0_P2">FF 25 01 02 00 04 02 02 01 00 00 00</cmd9>
+		<cmd10 RW = "R" Size = "7" Name="READ_8K_WI_CE2WIN0_P3">FF 25 01 02 00 04 03 03 01 00 00 00</cmd10>
+		<cmd11 RW = "R" Size = "7" Name="READ_8K_WI_CE2WIN0_P4">FF 25 01 02 00 04 04 04 01 00 00 00</cmd11>
+		
+		<!--Read 8K READ_8K_BootBlk -->
+		<cmd12 RW = "W" Size = "7" Name="SetECC108">FF 97 00 0A 00 00 00 00 00 00 00 00</cmd12>
+		<cmd13 RW = "W" Size = "7" Name="SetHomogeneous_On">FF 2c 00 00 00 00 00 00 00 00 00 00</cmd13>
+		<cmd14 RW = "R" Size = "7" Name="READ_8K_BootBlk">FF 25 01 00 00 01 00 00 01 00 00 00</cmd14>
+		
+		
+		<!--read boot relink, from 0x20, 0x22, 0x24-->
+		<cmd16 RW = "W" Size = "7" Name="SetHomogeneous_On">FF 2c 00 00 00 00 00 00 00 00 00 00</cmd16>
+		<cmd17 RW = "R" Size = "7" Name="READ_8K_BootRelink_20">FF 25 01 00 00 01 20 20 01 00 00 00</cmd17>
+		<cmd18 RW = "W" Size = "7" Name="SetHomogeneous_Off">FF 2b 00 00 00 00 00 00 00 00 00 00</cmd18>
+		<cmd19 RW = "R" Size = "7" Name="READ_8K_BootRelink_22">FF 25 01 00 00 01 22 22 01 00 00 00</cmd19>
+		<cmd20 RW = "W" Size = "7" Name="SetHomogeneous_On">FF 2c 00 00 00 00 00 00 00 00 00 00</cmd20>
+		<cmd21 RW = "R" Size = "7" Name="READ_8K_BootRelink_24">FF 25 01 00 00 01 24 24 01 00 00 00</cmd21>
+		<cmd22 RW = "W" Size = "7" Name="SetHomogeneous_Off">FF 2b 00 00 00 00 00 00 00 00 00 00</cmd22>
+		<cmd23 RW = "R" Size = "7" Name="READ_8K_BootRelink_26">FF 25 01 00 00 01 26 26 01 00 00 00</cmd23>
+		
+		
+		<!--Read 8K _Bootblock_80-->
+		<cmd24 RW = "W" Size = "7" Name="SetECC108">FF 97 00 0A 00 00 00 00 00 00 00 00</cmd24>
+		<cmd25 RW = "W" Size = "7" Name="SetHomogeneous_Off">FF 2b 00 00 00 00 00 00 00 00 00 00</cmd25>
+		<cmd26 RW = "R" Size = "7" Name="READ_8K_Bootblock_80">FF 25 01 00 00 01 80 80 01 00 00 00</cmd26>	
+		
+		<cmd27 RW = "R" Size = "512" Name="READ_FLASHID">FF 07 68 00 00 01 80 80 01 00 00 00</cmd27>	
+		<cmd28 RW = "R" Size = "512" Name="READ_RAM">FF 11 01 00 50 00 00 00 01 00 00 00</cmd28>			
+		
+		
+		
+		<!--SetHomogeneous-->	
+		<cmd15 RW = "W" Size = "7" Name="SetHomogeneous_Off">FF 2b 00 00 00 00 00 00 00 00 00 00</cmd15>
+		<cmd16 RW = "W" Size = "7" Name="SetHomogeneous_On">FF 2c 00 00 00 00 00 00 00 00 00 00</cmd16>
+			
+		<!-- ECC -->
+		<cmd17 RW = "W" Size = "7" Name="SetECC108">FF 97 00 0A 00 00 00 00 00 00 00 00</cmd17>
+		<cmd18 RW = "W" Size = "7" Name="SetECC64">FF 97 00 03 00 00 00 00 00 00 00 00</cmd18>
+		
+		<!--Read 8K READ_8K_Relink -->
+		<cmd19 RW = "R" Size = "7" Name="READ_8K_Relink">FF 25 01 00 00 07 00 00 01 00 00 00</cmd19>
+		
+	
+
+	</BackupXMLSetting>	
+</Configuration>
+

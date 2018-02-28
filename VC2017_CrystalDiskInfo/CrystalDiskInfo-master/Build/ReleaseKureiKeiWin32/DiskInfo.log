@@ -1,0 +1,62 @@
+﻿  stdafx.cpp
+  AboutDlg.cpp
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  ButtonCx.cpp
+  ComboBoxCx.cpp
+  DialogCx.cpp
+DialogCx.cpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  DiskInfo.cpp
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  DiskInfoDlg.cpp
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  DiskInfoDlgCopy.cpp
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  DiskInfoDlgInit.cpp
+DiskInfoDlgInit.cpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  DiskInfoDlgMenu.cpp
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  DiskInfoDlgTray.cpp
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  DiskInfoDlgUpdate.cpp
+DiskInfoDlgUpdate.cpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+DiskInfoDlgUpdate.cpp(828): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  FontComboBox.cpp
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  FontSelection.cpp
+FontSelection.cpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  GraphDlg.cpp
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+GraphDlg.cpp(764): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  HealthDlg.cpp
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  MainDialog.cpp
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  NVMeInterpreter.cpp
+  OptionDlg.cpp
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  SettingDlg.cpp
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  SlotSpeedGetter.cpp
+  正在編譯...
+  SoundSettingDlg.cpp
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  StaticCx.cpp
+  AtaSmart.cpp
+d:\chrome_dl\crystaldiskinfo-master\DnpService.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  DebugPrint.cpp
+  DHtmlDialogEx.cpp
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  DHtmlMainDialog.cpp
+d:\chrome_dl\crystaldiskinfo-master\resource.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  EventLog.cpp
+  GetFileVersion.cpp
+  GetOsInfo.cpp
+  IsCurrentUserLocalAdministrator.cpp
+  ListCtrlEx.cpp
+  正在產生程式碼
+  已完成程式碼產生
+  DiskInfo.vcxproj -> D:\Chrome_DL\CrystalDiskInfo-master\..\Marguerite\DiskInfo32K.exe
